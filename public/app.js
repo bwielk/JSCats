@@ -69,4 +69,4 @@ var getRid = function(){
 }
 
 window.onload = app;
-window.onload = getRid;
+//window.onload = getRid;
