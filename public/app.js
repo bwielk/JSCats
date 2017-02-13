@@ -61,4 +61,12 @@ var app = function(){
   }
 }
 
+var getRid = function(){
+  var lists = document.querySelectorAll('ul');
+  for(var i = 0; i< lists.length; i++){
+    lists.removeChild(lists.childNodes[0]);
+  }
+}
+
 window.onload = app;
+window.onload = getRid;
